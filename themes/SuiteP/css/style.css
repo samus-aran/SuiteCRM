@@ -6097,7 +6097,8 @@ object {
 }
 
 div.panel-heading a.collapsed {
-    background-color: #BFCAD3 !important;
+    background-color: #BFCAD3;
+    /** comment **/
 }
 
 @media (max-width: 767px) {
