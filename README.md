@@ -3,9 +3,7 @@
 [![Build Status](https://travis-ci.org/salesagility/SuiteCRM.svg?branch=master)](https://travis-ci.org/salesagility/SuiteCRM)
 
 
-HELLO
-
-AGAIN
+TESTING
 
 
 ### What's in this repository ###
