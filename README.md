@@ -3,19 +3,7 @@
 [![Build Status](https://travis-ci.org/salesagility/SuiteCRM.svg?branch=master)](https://travis-ci.org/salesagility/SuiteCRM)
 
 
-bhbcsbchbhjabjh
-hcsbacbsbjhbhj
-
-
-bxghbhxbhjbshjbxhjbhxsbjhab
-
-
-bbsbchbsabcsbjbsc
-cnjhnsjkncsjkncskj
-scanjscanjkcsnjkcsnjk
-
-
-bschcabsbhj
+HELLO
 
 
 ### What's in this repository ###
