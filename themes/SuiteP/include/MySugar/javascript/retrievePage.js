@@ -35,17 +35,14 @@ function outputPage(page_id,pageContent) {
 }
 
 $(document).ready(function () {
-    console.log('retrievePage')
     retrievePage(0);
     // events
 
     $('.modal-add-dashlet').on('show.bs.modal', function (e) {
-        console.log('add dashlet')
         SUGAR.mySugar.showDashletsDialog();
     })
 
     $('.modal-add-dashboard').on('show.bs.modal', function (e) {
-        console.log('add dashboard')
         addDashboardForm($('ul.nav-dashboard > li').length -1);
         $('.btn-add-dashboard').click(function() {
             //validate
@@ -60,7 +57,6 @@ $(document).ready(function () {
     })
 
     $('.modal-edit-dashboard').on('show.bs.modal', function (e) {
-        console.log('edit dashboard')
         var tabs = $('ul.nav-dashboard > li');
         var totalTabs = tabs.length -1;
 
@@ -77,7 +73,6 @@ $(document).ready(function () {
                 var removeButton = $('<button class="btn btn-xs btn-danger"><img src="themes/SuiteP/images/id-ff-remove-nobg.svg"></button>');
                 removeButton.click(function(a) {
                     var id = $(this).parents('.panel').index();
-                    console.log(id)
 
                     $.ajax({
 
@@ -89,7 +84,6 @@ $(document).ready(function () {
                         },
 
                         success: function (data) {
-                            console.log(data)
                             $.ajax({
 
                                 url: "index.php?module=Home&action=RemoveDashboardPages",
@@ -101,7 +95,6 @@ $(document).ready(function () {
                                 },
 
                                 success: function (data) {
-                                    console.log(data)
 
 
                                 },

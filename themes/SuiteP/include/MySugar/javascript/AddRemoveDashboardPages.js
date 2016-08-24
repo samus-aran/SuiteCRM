@@ -22,7 +22,6 @@ function removeDashboardForm(page_id) {
             },
 
             success: function (data) {
-                console.log(data)
                 var titleval = SUGAR.language.get('app_strings', 'LBL_DELETE_DASHBOARD_PAGE');
                 var myButtons = [
                     { text: SUGAR.language.get('app_strings', 'LBL_SEARCH_DROPDOWN_YES'), handler: handleSubmit, isDefault: true },
