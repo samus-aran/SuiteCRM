@@ -92,6 +92,17 @@ class AOR_Report extends Basic {
         return false;
     }
 
+    function ACLAccess($view,$is_owner='not_set',$in_group='not_set', $target_module){
+        $result = parent::ACLAccess($view,$is_owner,$in_group);
+        if($result === true){
+            if($target_module != ""){
+                $result = ACLController::checkAccess($this->report_module, 'list', true);
+            }
+        }
+        return $result;
+    }
+
+
     function save($check_notify = FALSE){
 
         // TODO: process of saveing the fields and conditions is too long so we will have to make some optimization on save_lines functions
