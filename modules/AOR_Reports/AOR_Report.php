@@ -957,6 +957,11 @@ class AOR_Report extends Basic {
         $query = '';
         $query_array = array();
 
+        //Check if the user has access to the target module
+        if(!(ACLController::checkAccess($this->report_module, 'list', true))) {
+            return false;
+        }
+
         $query_array = $this->build_report_query_select($query_array, $group_value);
         if(isset($extra['where']) && $extra['where']) {
             $query_array['where'][] = implode(' AND ', $extra['where']) . ' AND ';
@@ -1280,6 +1285,10 @@ class AOR_Report extends Basic {
                         }
                         // Bug: Prevents relationships from loading.
                         $new_condition_module = new $beanList[getRelatedModule($condition_module->module_dir,$rel)];
+                        //Check if the user has access to the related module
+                        if(!(ACLController::checkAccess($new_condition_module->module_name, 'list', true))) {
+                            return false;
+                        }
                         $oldAlias = $table_alias;
                         $table_alias = $table_alias.":".$rel;
                         $query = $this->build_report_query_join($rel, $table_alias, $oldAlias, $condition_module, 'relationship', $query, $new_condition_module);
