@@ -60,6 +60,10 @@ $subpanel_layout = array(
 			 'vname'				=> 'LBL_LIST_STATUS',
 			 'width'				=> '15%',
 		),
+		'category' => array(
+			'vname'				=> 'LBL_CATEGORY',
+			'width'				=> '15%',
+		),
 		'contact_name'=>array(
              'widget_class'         => 'SubPanelDetailViewLink',
              'target_record_key'    => 'contact_id',

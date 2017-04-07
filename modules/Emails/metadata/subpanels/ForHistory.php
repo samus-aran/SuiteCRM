@@ -50,15 +50,19 @@ $subpanel_layout = array(
 			'widget_class'			=> 'SubPanelIcon',
  		 	'width'					=> '2%',
 		),
-		'name' => array(
-			 'vname'				=> 'LBL_LIST_SUBJECT',
-			 'widget_class'			=> 'SubPanelDetailViewLink',
-			 'width'				=> '30%',
-             'parent_info'          => true
-		),
 		'status' => array(
 			 'vname'				=> 'LBL_LIST_STATUS',
 			 'width'				=> '15%',
+		),
+		'category' => array(
+			'vname'				=> 'LBL_CATEGORY',
+			'width'				=> '15%',
+		),
+		'name' => array(
+			'vname'				=> 'LBL_LIST_SUBJECT',
+			'widget_class'			=> 'SubPanelDetailViewLink',
+			'width'				=> '30%',
+			'parent_info'          => true
 		),
 		'reply_to_status' => array(
 			 'usage'				=> 'query_only',

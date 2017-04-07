@@ -3971,3 +3971,6 @@ $app_list_strings['pdf_page_size_dom']['Letter'] = 'Letter';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Legal';
 $app_list_strings['pdf_orientation_dom']['Portrait'] = 'Portrait';
 $app_list_strings['pdf_orientation_dom']['Landscape'] = 'Landscape';
+$app_list_strings['email_category_dom']['Sales'] = 'Sales';
+$app_list_strings['email_category_dom']['Support'] = 'Support';
+$app_list_strings['email_category_dom']['Enquiry'] = 'Enquiry';

@@ -318,6 +318,14 @@ $dictionary['Email'] = array(
             'reportable' => false,
             'comment' => 'ID of Sugar object referenced by parent_type (deprecated as of 4.2)',
         ),
+        'category' => array(
+            'name' => 'category',
+            'vname' => 'LBL_CATEGORY',
+            'type' => 'enum',
+            'options' => 'email_category_dom',
+            'len' => 100,
+            'comment' => 'Category of Email',
+        ),
 
         /* relationship collection attributes */
         /* added to support InboundEmail */

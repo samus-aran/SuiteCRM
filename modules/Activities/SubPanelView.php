@@ -185,6 +185,7 @@ foreach ($focus_emails_list as $email) {
 									 'direction' => '',
 									 'module' => "Emails",
 									 'status' => '',
+		 								'category' => '',
 									 'parent_id' => $email->parent_id,
 									 'parent_type' => $email->parent_type,
 									 'parent_name' => $email->parent_name,

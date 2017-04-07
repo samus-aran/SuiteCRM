@@ -119,15 +119,14 @@ $layout_defs['History'] = array(
 		 		 		'width' => '2%',
 					),
 					array(
-			 		 	'name' => 'name',
-			 		 	'vname' => 'LBL_LIST_SUBJECT',
-						'widget_class' => 'SubPanelDetailViewLink',
-		 		 		'width' => '28%',
-					),
-					array(
 			 		 	'name' => 'status',
 			 		 	'vname' => 'LBL_LIST_STATUS',
 		 		 		'width' => '10%',	
+					),
+					array(
+						'name' => 'category',
+						'vname' => 'LBL_CATEGORY',
+						'width' => '10%',
 					),
 					array(
 			 		 	'name' => 'contact_name',
