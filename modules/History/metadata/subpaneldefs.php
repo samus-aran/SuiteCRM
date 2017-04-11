@@ -125,7 +125,7 @@ $layout_defs['History'] = array(
 					),
 					array(
 						'name' => 'category',
-						'vname' => 'LBL_CATEGORY',
+						'vname' => 'LBL_LIST_CATEGORY',
 						'width' => '10%',
 					),
 					array(

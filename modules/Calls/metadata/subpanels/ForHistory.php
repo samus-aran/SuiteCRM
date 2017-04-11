@@ -63,6 +63,10 @@ $subpanel_layout = array(
 			 'width' => '15%',
 			 'force_exists'=>true //this will create a fake field in the case a field is not defined
 		),
+		'category' => array(
+			'vname' => 'LBL_LIST_CATEGORY',
+			'force_exists'			=> true,
+		),
 		'reply_to_status' => array(
 			 'usage'				=> 'query_only',
              'force_exists'			=> true,

@@ -98,6 +98,7 @@ $mod_strings = array (
   'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
   'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Archive Email',
   'LBL_LIST_STATUS' => 'Status',
+	'LBL_LIST_CATEGORY' => 'Category',
   'LBL_LIST_DUE_DATE' => 'Due Date',
   'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
   'NTC_NONE_SCHEDULED' => 'None scheduled.',

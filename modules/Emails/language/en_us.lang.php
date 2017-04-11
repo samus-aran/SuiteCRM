@@ -386,5 +386,6 @@ $mod_strings = array (
 	'LBL_DATE_MODIFIED' => 'Date Modified',
 
 	'LBL_CATEGORY' => 'Category',
+	'LBL_LIST_CATEGORY' => 'Category',
 );
 

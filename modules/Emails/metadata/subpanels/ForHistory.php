@@ -55,7 +55,7 @@ $subpanel_layout = array(
 			 'width'				=> '15%',
 		),
 		'category' => array(
-			'vname'				=> 'LBL_CATEGORY',
+			'vname'				=> 'LBL_LIST_CATEGORY',
 			'width'				=> '15%',
 		),
 		'name' => array(

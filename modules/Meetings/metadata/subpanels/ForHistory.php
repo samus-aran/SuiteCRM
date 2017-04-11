@@ -66,6 +66,10 @@ $subpanel_layout = array(
 			 'vname' => 'LBL_LIST_STATUS',
 			 'width' => '15%',
 		),
+		'category' => array(
+			'vname' => 'LBL_LIST_CATEGORY',
+			'force_exists'			=> true,
+		),
 		'reply_to_status' => array(
 			 'usage'				=> 'query_only',
              'force_exists'			=> true,
