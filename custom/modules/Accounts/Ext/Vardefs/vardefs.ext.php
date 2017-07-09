@@ -13,11 +13,6 @@ $dictionary['Account']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
  
 
  // created: 2017-07-06 12:06:45
-$dictionary['Account']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
-
- 
-
- // created: 2017-07-06 12:06:45
 $dictionary['Account']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
@@ -28,6 +23,17 @@ $dictionary['Account']['fields']['account_type']['required']=true;
 $dictionary['Account']['fields']['account_type']['inline_edit']=true;
 $dictionary['Account']['fields']['account_type']['comments']='The Company is of this type';
 $dictionary['Account']['fields']['account_type']['merge_filter']='disabled';
+
+ 
+
+ // created: 2017-07-06 12:06:45
+$dictionary['Account']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
+
+ 
+
+ // created: 2017-07-09 15:47:16
+$dictionary['Account']['fields']['renewal_date_c']['inline_edit']='1';
+$dictionary['Account']['fields']['renewal_date_c']['labelValue']='Renewal Date';
 
  
 ?>

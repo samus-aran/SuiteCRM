@@ -1,5 +1,6 @@
-<?php
-// created: 2017-07-07 11:13:41
-$mod_strings = array (
-  'LBL_TYPE' => 'Type:',
-);
+<?php 
+ // created: 2017-07-09 15:48:01
+$mod_strings['LBL_TYPE'] = 'Type:';
+$mod_strings['LBL_RENEWAL_DATE'] = 'Renewal Date';
+
+?>
