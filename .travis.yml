@@ -55,7 +55,7 @@ before_script:
 
 script:
   # Run the silent installer or the wizard installer ?
-  - mv -f tests/travis_config_si.php config_si.php; else echo "using install wizard"
+  - mv -f tests/travis_config_si.php config_si.php
   - php tests/testinstall.php; else ./vendor/bin/codecept run install --env travis-ci-hub -f -vvv -d
   - ./build/push_output.sh
   # Run the unit tests
