@@ -43,7 +43,7 @@ before_script:
   - echo "cgi.fix_pathinfo = 1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - sudo sed -i -e "s,www-data,travis,g" /etc/apache2/envvars
   - sudo chown -R travis:travis /var/lib/apache2/fastcgi
-  - else ~/.phpenv/versions/$(phpenv version-name)/sbin/php-fpm
+  - ~/.phpenv/versions/$(phpenv version-name)/sbin/php-fpm
   # Configure apache virtual hosts - images with PHP 7 or above
   - sudo cp -f build/travis-ci-apache /etc/apache2/sites-available/000-default.conf
   - sudo service apache2 restart
@@ -56,7 +56,7 @@ before_script:
 script:
   # Run the silent installer or the wizard installer ?
   - mv -f tests/travis_config_si.php config_si.php
-  - php tests/testinstall.php; else ./vendor/bin/codecept run install --env travis-ci-hub -f -vvv -d
+  - ./vendor/bin/codecept run install --env travis-ci-hub -f -vvv -d
   - ./build/push_output.sh
   # Run the unit tests
   - ./vendor/bin/codecept run unit --steps
