@@ -1,6 +1,7 @@
 ---
 name: Bug Report
 about: Found a bug within SuiteCRM? Please raise it here!
+
 ---
 
 <!--- Provide a general summary of the issue in the **Title** above -->
@@ -38,4 +39,3 @@ about: Found a bug within SuiteCRM? Please raise it here!
 * Browser name and version (e.g. Chrome Version 51.0.2704.63 (64-bit)):
 * Environment name and version (e.g. MySQL, PHP 7):
 * Operating System and version (e.g Ubuntu 16.04):
-
